@@ -1,6 +1,6 @@
 <% book.book_comments.each do |book_comment| %>
   <table class="table comment">
-    <tr id="book_comment_#{book_comment.id}">
+    <tr id="book_comment_<%= book_comment.id %>">
       <td>
       <span><%= book_comment.comment %></span><br>
       </td>
